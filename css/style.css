@@ -7,6 +7,32 @@ body {
     color: #333;
 }
 
+/* サイト上部 */
+.hero {
+    height: 300px; /* 高さは自由に調整 */
+    background-image: url("../img/背景.jpg");
+    background-size: cover;      /* 画面いっぱいに表示 */
+    background-position: center; /* 中央に表示 */
+
+    display: flex;
+    justify-content: center; /* 横中央 */
+    align-items: center;     /* 縦中央 */
+
+    text-align: center;
+    color: white;
+}
+
+/* 文字調整 */
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+
 header {
     background: #f4f4f4;
     padding: 1rem;
