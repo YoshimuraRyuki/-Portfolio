@@ -13,7 +13,7 @@ body {
     height: auto;            /* 高さを固定せず中身に合わせる */
     aspect-ratio: 16 / 9;    /* 【重要】画像の比率を指定（例：16対9の場合） */
     
-    background-image: url("../img/背景.jpg");
+    background-image: url("../img/images.jpg");
     background-size: contain;   /* 画像全体を収める */
     background-repeat: no-repeat; 
     background-position: center;
